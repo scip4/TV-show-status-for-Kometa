@@ -11,7 +11,7 @@ Categories:
 *  Ended Shows (no new episodes or seasons are expected)
 
 Example overlays:
-![Image](https://github.com/user-attachments/assets/91b08c66-58ed-417d-a87d-faf24be20896)
+![Image](https://github.com/user-attachments/assets/e7c517cc-5164-41d9-8e5e-015577aad36e)
 ---
 
 ## ✨ Features
@@ -123,6 +123,8 @@ TV Shows:
     - file: /config/tssk/TSSK_TV_FINAL_EPISODE_OVERLAYS.yml
     - file: /config/tssk/TSSK_TV_ENDED_OVERLAYS.yml
     - file: /config/tssk/TSSK_TV_RETURNING_OVERLAYS.yml
+    - file: P:/TOOLS/Plex Meta Manager/config/TSSK/TSSK_TV_NEW_SEASON_STARTED_OVERLAYS.yml
+    - file: P:/TOOLS/Plex Meta Manager/config/TSSK/TSSK_TV_NEW_SHOW_OVERLAYS.yml
   collection_files:
     - file: /config/tssk/TSSK_TV_NEW_SEASON_COLLECTION.yml
     - file: /config/tssk/TSSK_TV_UPCOMING_EPISODE_COLLECTION.yml
