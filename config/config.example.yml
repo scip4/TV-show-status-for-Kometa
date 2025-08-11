@@ -5,7 +5,7 @@ skip_unmonitored: true
 utc_offset: +0
 
 ################################################################################
-##########                        NEW SEASON:                         ##########
+##########                     NEW SEASON SOON:                       ##########
 ################################################################################
 
 future_days_new_season: 31
@@ -30,6 +30,68 @@ text_new_season:
   date_format: "ddd dd/mm"
   capitalize_dates: true
   use_text: "NEW SEASON"
+  horizontal_align: center
+  horizontal_offset: 0
+  vertical_align: bottom
+  vertical_offset: 35
+  font_size: 70
+  font_color: "#FFFFFF"
+
+################################################################################
+##########                    NEW SEASON STARTED:                     ##########
+################################################################################
+
+recent_days_new_season_started: 7
+
+collection_new_season_started:
+  collection_name: "New Season Started"
+  smart_label: title.desc
+  sort_title: "+1_2New Season Started"
+  ignore_blank_results: true
+
+backdrop_new_season_started:
+  enable: true
+  back_color: "#EB3233"
+  back_height: 90
+  back_width: 950
+  horizontal_align: center
+  horizontal_offset: 0
+  vertical_align: bottom
+  vertical_offset: 20
+
+text_new_season_started:
+  use_text: "NEW SEASON STARTED"
+  horizontal_align: center
+  horizontal_offset: 0
+  vertical_align: bottom
+  vertical_offset: 35
+  font_size: 70
+  font_color: "#FFFFFF"
+  
+################################################################################
+##########                         NEW SHOW:                          ##########
+################################################################################
+
+recent_days_new_show: 7
+
+collection_new_show:
+  collection_name: "New Show"
+  smart_label: title.desc
+  sort_title: "+1_2New Show"
+  ignore_blank_results: true
+
+backdrop_new_show:
+  enable: true
+  back_color: "#EB3233"
+  back_height: 90
+  back_width: 950
+  horizontal_align: center
+  horizontal_offset: 0
+  vertical_align: bottom
+  vertical_offset: 20
+
+text_new_show:
+  use_text: "RECENTLY ADDED"
   horizontal_align: center
   horizontal_offset: 0
   vertical_align: bottom
@@ -93,7 +155,7 @@ backdrop_upcoming_finale:
   vertical_offset: 20
 
 text_upcoming_finale:
-  date_format: "ddd dd/mm"
+  date_format: "ddd dd/mm"      # e.g., "yyyy-mm-dd", "mm/dd", "dd/mm", etc.
   capitalize_dates: true
   use_text: "FINALE AIRS"
   horizontal_align: center
@@ -196,7 +258,7 @@ text_season_finale:
 ##########                       FINAL EPISODE:                       ##########
 ################################################################################
 
-recent_days_final_episode: 21
+recent_days_final_episode: 7
 
 collection_final_episode:
   collection_name: "Final Episode"
