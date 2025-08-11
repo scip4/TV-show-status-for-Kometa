@@ -2,16 +2,23 @@
 
 This script checks your [Sonarr](https://sonarr.tv/) for your TV Shows statuses and creates .yml files which can be used by [Kometa](https://kometa.wiki/) to create collections and overlays.</br>
 
+
 Categories:
+*  New shows, that were added in the past x days
 *  Shows for which a finale was added which aired in the past x days
 *  Shows with upcoming regular episodes within x days
 *  Shows for which a new season is airing within x days
+*  Shows for which a new season has been added which aired in the past x days
 *  Shows with upcoming season finales within x days
 *  Returning Shows (new episodes or seasons are coming, but not within the timeframes chosen above)
 *  Ended Shows (no new episodes or seasons are expected)
 
-Example overlays:
+Example overlays (you can fully customize placement, colors, text, etc:
 ![Image](https://github.com/user-attachments/assets/e7c517cc-5164-41d9-8e5e-015577aad36e)
+
+Example collection:</br>
+<img width="696" height="403" alt="Image" src="https://github.com/user-attachments/assets/b52c411f-4d73-4386-93c4-38cee8ea2998" />
+
 ---
 
 ## ✨ Features
