@@ -5,13 +5,15 @@ This script checks your [Sonarr](https://sonarr.tv/) for your TV Shows statuses 
 
 Categories:
 *  New shows, that were added in the past x days
-*  Shows for which a finale was added which aired in the past x days
 *  Shows with upcoming regular episodes within x days
+*  Shows with upcoming season finales within x days
+*  Shows for which a finale was added which aired in the past x days
 *  Shows for which a new season is airing within x days
 *  Shows for which a new season has been added which aired in the past x days
-*  Shows with upcoming season finales within x days
 *  Returning Shows (new episodes or seasons are coming, but not within the timeframes chosen above)
 *  Ended Shows (no new episodes or seasons are expected)
+
+<sub>Also see [UTSK](https://github.com/netplexflix/Upcoming-TV-Shows-for-Kometa) for adding a category for upcoming TV shows</sub>
 
 Example overlays (you can fully customize placement, colors, text, etc:
 ![Image](https://github.com/user-attachments/assets/e7c517cc-5164-41d9-8e5e-015577aad36e)
